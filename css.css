@@ -1,0 +1,79 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@font-face {
+  font-family: "aNumberCondensedVF";
+  src: url("./vf/AtypeB-VF.ttf") format("truetype");
+}
+
+p {
+    font-size: 100px;
+    margin: 0px;
+    /* font-weight:50; */
+    font-weight: 500;
+    transition: all 2s cubic-bezier(0.74, 0.01, 0.3, 1);
+}
+
+button {
+
+    border-radius: 6px;
+    background: rgba(242, 80, 44, 1);
+    border: 1px solid rgba(201, 53, 27, 0.5); 
+    border-color: rgba(242, 80, 44, 0.5) rgba(242, 80, 44, 0.5) rgba(201, 53, 27, 0.5);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.04);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px 4px 8px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    vertical-align: top;
+    transition: background 250ms ease;
+    text-align: center;
+    
+}
+
+button:hover{
+    background: #F57450;
+}
+
+button:active{
+    background: #C9351B;
+}
+
+button:active~p{
+    /* font-weight:200; */
+    font-weight: 700;
+}
+.Roboto {
+    font-weight: 200;
+    font-family: "Roboto Flex", sans-serif;
+}
+.TCN {
+    font-weight: 200;
+    font-family: "TCloudNumberVF", sans-serif;
+}
+.TTF {
+    font-weight: 200;
+    font-family: "aNumberCondensedVF", sans-serif;
+    transition: all 1s cubic-bezier(0.74, 0.01, 0.3, 1);
+}
+.TTF span:hover{
+    font-weight: 500;
+    transition: all 1s cubic-bezier(0.74, 0.01, 0.3, 1);
+}
+.TTF span:nth-child(odd){
+    /* font-weight: 500; */
+    transition: all 2s cubic-bezier(0.74, 0.01, 0.3, 1);
+}
+.TTF span:nth-child(even){
+    /* font-weight: 500; */
+    transition: all 2s cubic-bezier(0.41, 0, 0.54, 1);
+}
