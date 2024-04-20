@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="4.0">
+ <axes>
+  <axis default="400" minimum="300" tag="wght" maximum="700" name="weight">
+   <labelname xml:lang="en">Weight</labelname>
+   <map input="300" output="300"/>
+   <map input="400" output="400"/>
+   <map input="700" output="700"/>
+  </axis>
+ </axes>
+ <sources>
+  <source familyname="aNumberCondensed" filename="masters/aNumberCondensed-Bold.ufo" stylename="Bold" name="Bold">
+   <location>
+    <dimension xvalue="700" name="weight"/>
+   </location>
+  </source>
+  <source familyname="aNumberCondensed" filename="masters/aNumberCondensed-ExtraLight.ufo" stylename="Extra Light" name="Extra Light">
+   <location>
+    <dimension xvalue="300" name="weight"/>
+   </location>
+  </source>
+  <source familyname="aNumberCondensed" filename="masters/aNumberCondensed-Medium.ufo" stylename="Medium" name="Medium">
+   <lib copy="1"/>
+   <groups copy="1"/>
+   <info copy="1"/>
+   <features copy="1"/>
+   <location>
+    <dimension xvalue="400" name="weight"/>
+   </location>
+  </source>
+ </sources>
+ <instances>
+  <instance familyname="aNumberCondensed" filename="instances/aNumberCondensed-ExtraLightCondensed.ufo" stylename="Extra Light Condensed" name="ExtraLightCondensed">
+   <location>
+    <dimension xvalue="300" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="aNumberCondensed" filename="instances/aNumberCondensed-MediumCondensed.ufo" stylename="Medium Condensed" name="MediumCondensed">
+   <location>
+    <dimension xvalue="400" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="aNumberCondensed" filename="instances/aNumberCondensed-BoldCondensed.ufo" stylename="Bold Condensed" name="BoldCondensed">
+   <location>
+    <dimension xvalue="700" name="weight"/>
+   </location>
+  </instance>
+ </instances>
+</designspace>
