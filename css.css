@@ -6,7 +6,7 @@ body{
 
 @font-face {
   font-family: "aNumberCondensedVF";
-  src: url("./vf/AtypeB-VF.ttf") format("truetype");
+  src: url("./Web-TT/aNumberCondensed-VF.ttf") format("truetype");
 }
 
 p {
